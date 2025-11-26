@@ -9,7 +9,7 @@ export default function Board() {
 
 function handleClick(i) {
   const nextSquares = squares.slice();
-  nextSquares[0] = "X";
+  nextSquares[i] = "X";
   setSquares(nextSquares);
 }
 
